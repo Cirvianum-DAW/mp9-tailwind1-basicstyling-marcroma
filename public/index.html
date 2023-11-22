@@ -4,59 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Showcase</title>
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/dist/styles.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container mx-auto py-8">
-      <h1>Tailwind Showcase</h1>
-      <div>
-        <h2>Colors and Backgrounds</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <h1 class="font-bold text-4xl py-6">Tailwind Showcase</h1>
+      <div class="w-full h-full bg-slate-100">
+        <h2 class="font-bold text-2xl pl-6 pt-6">Colors and Backgrounds</h2>
+        <div style="display: flex" class="p-6">
+          <div
+            class="w-2/5 h-24 bg-white border-solid border-2 border-slate-400"
+          ></div>
+          <div
+            class="w-2/5 h-24 bg-red-400 border-solid border-2 border-red-500"
+          ></div>
+          <div
+            class="w-2/5 h-24 bg-yellow-200 border-solid border-2 border-yellow-500"
+          ></div>
+          <div
+            class="w-2/5 h-24 bg-green-300 border-solid border-2 border-green-500"
+          ></div>
         </div>
       </div>
-      <div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="w-full h-full bg-slate-100 mt-6">
+        <div style="display: flex" class="p-6">
+          <div
+            class="w-2/5 h-24 bg-white border-solid border-2 border-slate-400"
+          ></div>
+          <div
+            class="w-2/5 h-24 bg-slate-200 border-solid border-2 border-slate-400"
+          ></div>
+          <div
+            class="w-2/5 h-24 bg-slate-300 border-solid border-2 border-slate-400"
+          ></div>
+          <div
+            class="w-2/5 h-24 bg-slate-400 border-solid border-2 border-slate-400"
+          ></div>
         </div>
       </div>
-      <div>
-        <h2>Text</h2>
-        <p>This is a small text.</p>
-        <p>This is a base text.</p>
-        <p>This is a large text.</p>
-        <p>This is an extra large text.</p>
-        <p>This is a 3x extra large text.</p>
-        <p>This is a 4x extra large text.</p>
-        <p>This is a 5x extra large text.</p>
-        <p>This is a 8x extra large text.</p>
-        <p>This is a 9x extra large text.</p>
+      <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+        <h2 class="font-bold text-xl">Text</h2>
+        <p class="test-sm">This is a small text.</p>
+        <p class="test-base">This is a base text.</p>
+        <p class="text-lg">This is a large text.</p>
+        <p class="text-xl">This is an extra large text.</p>
+        <p class="text-3xl">This is a 3x extra large text.</p>
+        <p class="text-4xl">This is a 4x extra large text.</p>
+        <p class="text-5xl">This is a 5x extra large text.</p>
+        <p class="text-8xl">This is a 8x extra large text.</p>
+        <p class="text-9xl">This is a 9x extra large text.</p>
       </div>
-      <div>
-        <h2>Text Decoration</h2>
-        <p>This is an underlined text.</p>
-        <p>This is a line-through text.</p>
-        <p>This is an underlined and line-through text.</p>
+      <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+        <h2 class="font-bold text-2xl p-2 text-black">Text Decoration</h2>
+        <p class="underline">This is an underlined text.</p>
+        <p class="line-through">This is a line-through text.</p>
+        <p class="line-through overline">
+          This is an underlined and line-through text.
+        </p>
       </div>
-      <div>
-        <h2>Text Alignment</h2>
-        <p>This is a left-aligned text.</p>
-        <p>This is a center-aligned text.</p>
-        <p>This is a right-aligned text.</p>
+      <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+        <h2 class="font-bold text-2xl p-2 text-black">Text Alignment</h2>
+        <p class="text-left">This is a left-aligned text.</p>
+        <p class="text-center">This is a center-aligned text.</p>
+        <p class="text-right">This is a right-aligned text.</p>
       </div>
-      <div>
-        <h2>Sizes</h2>
-        <div>
-          <div>XS</div>
-          <div>SM</div>
-          <div>BASE</div>
-          <div>LG</div>
+      <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+        <h2 class="font-bold text-2xl p-2 text-black">Sizes</h2>
+        <div style="display: flex;">
+          <div class=" text-xs w-2/5 h-24 bg-slate-100 border-solid border-2 border-slate-400">XS</div>
+          <div class="text-sm w-2/5 h-24 bg-slate-200 border-solid border-2 border-slate-400">SM</div>
+          <div class="text-base w-2/5 h-24 bg-slate-300 border-solid border-2 border-slate-400">BASE</div>
+          <div class="text-lg w-2/5 h-24 bg-slate-400 border-solid border-2 border-slate-400">LG</div>
         </div>
       </div>
       <div>
