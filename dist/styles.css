@@ -759,6 +759,10 @@ video {
   justify-content: center;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
