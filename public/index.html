@@ -11,7 +11,7 @@
       <h1 class="font-bold text-4xl py-6">Tailwind Showcase</h1>
       <div class="w-full h-full bg-slate-100">
         <h2 class="font-bold text-2xl pl-6 pt-6">Colors and Backgrounds</h2>
-        <div style="display: flex" class="p-6">
+        <div class="flex p-6">
           <div
             class="w-2/5 h-24 bg-white border-solid border-2 border-slate-400"
           ></div>
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="w-full h-full bg-slate-100 mt-6">
-        <div style="display: flex" class="p-6">
+        <div class="flex p-6">
           <div
             class="w-2/5 h-24 bg-white border-solid border-2 border-slate-400"
           ></div>
@@ -70,65 +70,65 @@
       </div>
       <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
         <h2 class="font-bold text-2xl p-2 text-black">Sizes</h2>
-        <div style="display: flex;">
-          <div class=" text-xs w-2/5 h-24 bg-slate-100 border-solid border-2 border-slate-400">XS</div>
+        <div class="flex text-center">
+          <div class="text-xs w-2/5 h-24 bg-slate-100 border-solid border-2 border-slate-400">XS</div>
           <div class="text-sm w-2/5 h-24 bg-slate-200 border-solid border-2 border-slate-400">SM</div>
           <div class="text-base w-2/5 h-24 bg-slate-300 border-solid border-2 border-slate-400">BASE</div>
           <div class="text-lg w-2/5 h-24 bg-slate-400 border-solid border-2 border-slate-400">LG</div>
         </div>
       </div>
-      <div>
-        <h2>Borders</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+        <h2 class="font-bold text-2xl p-2 text-black">Borders</h2>
+        <div class="flex p-6">
+          <div class="w-2/5 h-24 bg-slate-100 border-solid border-2 border-slate-400"></div>
+          <div class="w-2/5 h-24 bg-slate-200 border-solid border-2 rounded-md border-slate-400"></div>
+          <div class="w-2/5 h-24 bg-slate-300 border-solid border-2 rounded-lg border-slate-400"></div>
+          <div class="w-2/5 h-24 bg-slate-400 border-solid border-2 rounded-full border-slate-400"></div>
         </div>
       </div>
       <div>
-        <div>
-          <h2>Margin</h2>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+          <h2 class="font-bold text-2xl p-2 text-black">Margin</h2>
+          <div class="m-[1.5rem] text-lg bg-slate-200 border-solid border-2 border-slate-400">This div has a margin of 1.5rem on all sides.</div>
+          <div class="m-[1.5rem] my-[3rem] text-lg bg-slate-300 border-solid border-2 border-slate-400">This div has a horizontal margin of 1.5rem and a vertical margin of 3rem.</div>
+          <div class="mt-[1rem] mr-[2rem] mb-[3rem] ml-[4rem] text-lg bg-slate-400 border-solid border-2 border-slate-400">This div has a margin of 1 rem on the top, 2rem on the right, 3rem on the bottom, and 4 rem on the left.</div>
+        </div>
+        <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+          <h2 class="font-bold text-2xl p-2 text-black">Padding</h2>
+          <div class="p-[1.5rem] text-lg bg-slate-200 border-solid border-2 border-slate-400">This div has a padding of 1.5rem on all sides.</div>
+          <div class="px-[1.5rem] py-[3rem] text-lg bg-slate-300 border-solid border-2 border-slate-400">This div has a horizontal padding of 1.5rem and a vertical padding of 3rem.</div>
+          <div class="pt-[1rem] pr-[2rem] pb-[3rem] pl-[4rem] text-lg bg-slate-400 border-solid border-2 border-slate-400">This div has a padding of 1 rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left.</div>
         </div>
         <div>
-          <h2>Padding</h2>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <h2>Card 1</h2>
-          <div>
-            <img
+          <h2 class="font-bold text-2xl p-2 text-black">Card 1</h2>
+          <div class="border-solid border-2 border-slate-400 rounded-md p-6">
+            <img class="rounded-md"
               src="https://via.placeholder.com/300x200"
               alt="Placeholder image"
             />
-            <h3>Card Title</h3>
-            <p>This is a basic card example with an image and no flex.</p>
-            <a href="#">Button</a>
+            <h3 class="font-bold text-2xl p-2 text-black">Card Title</h3>
+            <p class="text-lg mt-1 mb-4">This is a basic card example with an image and no flex.</p>
+            <a class="bg-blue-500 p-2 px-6 rounded-md text-lg font-bold text-white" href="#">Button</a>
           </div>
         </div>
         <div>
-          <h2>Card 2</h2>
-          <div>
-            <h3>Card Title</h3>
-            <p>This is a basic card example with no image and no flex.</p>
-            <ul>
+          <h2 class="font-bold text-2xl mt-4 p-2 text-black">Card 2</h2>
+          <div class="border-solid border-2 border-slate-400 rounded-md p-6">
+            <h3 class="font-bold text-2xl text-black">Card Title</h3>
+            <p class="text-lg py-2">This is a basic card example with no image and no flex.</p>
+            <ul class="list-disc pl-4 mb-4">
               <li>Item 1</li>
               <li>Item 2</li>
               <li>Item 3</li>
             </ul>
-            <a href="#">Button</a>
+            <a class="bg-blue-500 p-2 px-6 rounded-md text-lg font-bold text-white" href="#">Button</a>
           </div>
         </div>
-        <div>
-          <h2>Buttons</h2>
-          <button>Button 1</button>
-          <button>Button 2</button>
-          <button>Button 3</button>
+        <div class="w-full h-full bg-slate-100 mt-6 p-5 text-slate-700">
+          <h2  class="font-bold text-2xl p-2 text-black">Buttons</h2>
+          <button class="bg-blue-500 p-2 px-6 rounded-md text-lg font-bold text-white">Button 1</button>
+          <button class="bg-green-500 p-2 px-6 rounded-full text-lg font-bold text-white">Button 2</button>
+          <button class="bg-red-500 p-2 px-6 rounded-lg text-lg font-bold text-white">Button 3</button>
         </div>
       </div>
     </div>
